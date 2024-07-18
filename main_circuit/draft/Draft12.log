@@ -1,0 +1,31 @@
+Circuit: * Z:\home\aniket\LTspice\my_files\Draft12.asc
+
+Model "x1:cmosn": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Model "x1:cmosp": Oxide thickness thinner than recommended for a level 3 MOSFET.
+Instance "m:x1:9": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:x1:10": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:x1:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:x1:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:x1:4": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:x1:4": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:x1:3": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:x1:3": Width narrower than recommended for a level 3 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Mar 24 19:10:53 2024
+Total elapsed time: 0.067 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2120
+traniter = 2084
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 9
+fillins = 2
+solver = Normal
+Matrix Compiler1: 608 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

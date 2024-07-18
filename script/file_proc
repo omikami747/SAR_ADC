@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+
+fh = open("./Draft10.txt","r")
+new_fh = open("./final_val_list.txt","w")
+readlines = [line.rstrip("\n") for line in fh.readlines()]
+##readlines
+a = "lol"
+
+def value_cal(a):
+    string = a.split("e-")
+    val = (float(string[0]))*(10**(-1*float(string[1])))
+    return val
+
+# for lines in readlines:
+# 	     indi = lines.split('\t')
+# 	     a = indi[3]
+dnl_val = []
+max_dnl = 0.00000000001
+max_inl = 0.00000000001
+dnl_time = "0"
+inl_time = "0"
+for index in range(2,len(readlines)):
+    first_line  = readlines[index-1].split('\t')
+    second_line = readlines[index].split('\t')
+    prev_inl    = first_line[3]
+    curr_inl    = second_line[3]
+    if abs(float(curr_inl) - float(prev_inl)) > max_dnl:
+        max_dnl = abs(float(curr_inl) - float(prev_inl))
+        dnl_time = second_line[0]
+    if float(prev_inl) > float(max_inl):
+        max_inl = float(prev_inl)
+        inl_time = first_line[0]
+    if float(curr_inl) > float(max_inl):
+        max_inl = float(curr_inl)
+        inl_time = second_line[0]
+    dnl_val.append(float(curr_inl) - float(prev_inl))
+    ##print(len(dnl_val),len(readlines))
+
+new_fh.write(readlines[0] + "dnl values" + "\n")
+new_fh.write(readlines[1] + "\n")
+
+for index in range(len(dnl_val)):
+    new_fh.write(readlines[index+2] + "\t" + str(dnl_val[index]) + "\n")
+
+print(f"DNL_max:{max_dnl} at time_step:{dnl_time},  INL_max:{max_inl} at time_step:{inl_time}")
+fh.close()
+new_fh.close()

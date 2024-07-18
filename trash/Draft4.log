@@ -1,0 +1,24 @@
+Circuit: * Z:\home\aniket\LTspice\my_files\Draft4.asc
+
+Model "cmosn": Oxide thickness thinner than recommended for a level 3 MOSFET.
+WARNING: Less than two connections to node N004.  This node is used by M1.
+Instance "m1": Length shorter than recommended for a level 3 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Mar 17 16:37:08 2024
+Total elapsed time: 0.055 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3030
+traniter = 3005
+tranpoints = 1377
+accept = 1287
+rejected = 90
+matrix size = 6
+fillins = 0
+solver = Normal
+Matrix Compiler1: 254 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

@@ -1,0 +1,29 @@
+Version 4
+SymbolType BLOCK
+LINE Normal 0 64 0 0
+LINE Normal 64 32 0 64
+LINE Normal 0 0 64 32
+LINE Normal -16 16 0 16
+LINE Normal -16 48 0 48
+LINE Normal 32 64 32 48
+LINE Normal 32 0 32 16
+LINE Normal 80 32 64 32
+LINE Normal 11 16 5 16
+LINE Normal 12 48 4 48
+LINE Normal 8 52 8 44
+TEXT 7 31 Left 1 CMP.
+PIN -16 16 NONE 5
+PINATTR PinName in
+PINATTR SpiceOrder 1
+PIN -16 48 NONE 6
+PINATTR PinName ip
+PINATTR SpiceOrder 2
+PIN 32 0 NONE 6
+PINATTR PinName AVDD
+PINATTR SpiceOrder 3
+PIN 32 64 NONE 6
+PINATTR PinName AVSS
+PINATTR SpiceOrder 4
+PIN 80 32 NONE 6
+PINATTR PinName out
+PINATTR SpiceOrder 5

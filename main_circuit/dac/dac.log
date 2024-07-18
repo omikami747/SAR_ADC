@@ -1,0 +1,89 @@
+Circuit: * Z:\home\aniket\LTspice\my_files\dac.asc
+
+WARNING: Node X9:N003 is floating.
+WARNING: Node X9:N004 is floating.
+WARNING: Node X9:X1:N002 is floating.
+WARNING: Node X9:X2:N002 is floating.
+WARNING: Node X2:N003 is floating.
+WARNING: Node X2:N004 is floating.
+WARNING: Node X2:X1:N002 is floating.
+WARNING: Node X2:X2:N002 is floating.
+WARNING: Node X3:N003 is floating.
+WARNING: Node X3:N004 is floating.
+WARNING: Node X3:X1:N002 is floating.
+WARNING: Node X3:X2:N002 is floating.
+WARNING: Node X4:N003 is floating.
+WARNING: Node X4:N004 is floating.
+WARNING: Node X4:X1:N002 is floating.
+WARNING: Node X4:X2:N002 is floating.
+WARNING: Node X5:N003 is floating.
+WARNING: Node X5:N004 is floating.
+WARNING: Node X5:X1:N002 is floating.
+WARNING: Node X5:X2:N002 is floating.
+WARNING: Node X6:N003 is floating.
+WARNING: Node X6:N004 is floating.
+WARNING: Node X6:X1:N002 is floating.
+WARNING: Node X6:X2:N002 is floating.
+WARNING: Node X7:N003 is floating.
+WARNING: Node X7:N004 is floating.
+WARNING: Node X7:X1:N002 is floating.
+WARNING: Node X7:X2:N002 is floating.
+WARNING: Node X8:N003 is floating.
+WARNING: Node X8:N004 is floating.
+WARNING: Node X8:X1:N002 is floating.
+WARNING: Node X8:X2:N002 is floating.
+WARNING: Node N012 is floating.
+WARNING: Node NC_01 is floating.
+
+Instance "m:x8:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x8:x1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x8:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x7:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x7:x1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x7:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x6:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x6:x1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x6:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x5:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x5:x1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x5:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:x1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:x1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:x1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x9:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x9:x1:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x9:2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x8:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x7:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x6:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x5:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x4:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x3:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x2:1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:x9:1": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Apr 07 16:25:25 2024
+Total elapsed time: 2.558 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 88755
+traniter = 88718
+tranpoints = 40798
+accept = 34860
+rejected = 5938
+matrix size = 118
+fillins = 0
+solver = Normal
+Thread vector: 18.2/6.8[5] 8.2/2.9[5] 3.6/1.4[5] 0.4/1.5[1]  2592/500
+Matrix Compiler1: 6.31 KB object code size  2.2/1.1/[0.5]
+Matrix Compiler2: 11.69 KB object code size  1.4/2.2/[0.5]
+
